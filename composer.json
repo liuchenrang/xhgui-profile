@@ -1,0 +1,30 @@
+{
+  "name": "chen/xhgui-header",
+  "version": "1.0.0",
+  "description": "支持php-fpm hyperf的性能分析工具",
+  "autoload": {
+    "psr-4": {
+      "Chen\\Xhgui\\": "src/main/"
+    },
+    "files": [
+      "src/main/function/helper.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "刘臣让",
+      "email": "877702999@qq.com"
+    }
+  ],
+  "require": {
+    "php": "5.*|7.*|8.*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "ext-xhprof": "*",
+    "psr/log": "*",
+    "hyperf/contract": "*",
+    "ext-tidyways": "*"
+  }
+}
